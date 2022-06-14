@@ -9,6 +9,7 @@ public class Anime {
     public Anime(){
 
     }
+
     public Anime(String name, String type, int episodes, String status){
         this.name = name;
         this.type = type;
