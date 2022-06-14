@@ -6,17 +6,16 @@ public class Anime {
     private int episodes;
     private String status;
 
-    public void init(String name, String type, int episodes){
+    public Anime(){
+
+    }
+    public Anime(String name, String type, int episodes, String status){
         this.name = name;
         this.type = type;
         this.episodes = episodes;
-    }
-
-    //the method has to have the same name and parameters need to be different in overloading
-    public void init(String name, String type, int episodes, String status){
-        this.init(name, type, episodes);
         this.status = status;
     }
+
     public void print(){
         System.out.println(this.type);
         System.out.println(this.episodes);
