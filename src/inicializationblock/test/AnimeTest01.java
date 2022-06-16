@@ -1,6 +1,6 @@
-package inicialization_block.test;
+package inicializationblock.test;
 
-import inicialization_block.domain.Anime;
+import inicializationblock.domain.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {

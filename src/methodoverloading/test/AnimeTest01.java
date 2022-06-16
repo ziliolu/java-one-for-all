@@ -1,6 +1,6 @@
-package method_overloading.test;
+package methodoverloading.test;
 
-import method_overloading.domain.Anime;
+import methodoverloading.domain.Anime;
 
 public class AnimeTest01 {
 

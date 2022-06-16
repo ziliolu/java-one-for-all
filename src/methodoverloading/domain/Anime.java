@@ -1,4 +1,4 @@
-package method_overloading.domain;
+package methodoverloading.domain;
 
 public class Anime {
     private String name;
