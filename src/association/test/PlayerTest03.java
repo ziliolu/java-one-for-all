@@ -3,7 +3,7 @@ package association.test;
 import association.domain.Player;
 import association.domain.Team;
 
-public class PlayerTes03 {
+public class PlayerTest03 {
     public static void main(String[] args) {
         Player player1 = new Player("Pele");
         Player player2 = new Player("Cafu");
