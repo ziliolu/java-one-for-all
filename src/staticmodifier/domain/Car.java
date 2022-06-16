@@ -21,6 +21,13 @@ public class Car {
         System.out.println("Speed limit: "+ this.speedLimit);
     }
 
+    public static void setSpeedLimit(double speedLimit){
+        Car.speedLimit = speedLimit;
+    }
+    public static double getSpeedLimit(){
+        return Car.speedLimit;
+    }
+
     public String getName() {
         return name;
     }
@@ -37,11 +44,5 @@ public class Car {
         this.maxSpeed = maxSpeed;
     }
 
-    public double getSpeedLimit() {
-        return speedLimit;
-    }
 
-    public void setSpeedLimit(double speedLimit) {
-        this.speedLimit = speedLimit;
-    }
 }
