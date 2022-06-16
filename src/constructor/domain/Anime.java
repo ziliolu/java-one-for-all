@@ -1,4 +1,4 @@
-package constructor.domain;
+package c58_constructor.domain;
 
 public class Anime {
     private String name;

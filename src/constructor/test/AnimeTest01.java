@@ -1,6 +1,6 @@
-package constructor.test;
+package c58_constructor.test;
 
-import constructor.domain.Anime;
+import c58_constructor.domain.Anime;
 
 public class AnimeTest01 {
 

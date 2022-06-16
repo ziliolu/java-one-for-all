@@ -1,4 +1,4 @@
-package inicializationblock.domain;
+package inicialization_block.domain;
 
 public class Anime {
 
