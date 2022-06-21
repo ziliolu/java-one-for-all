@@ -3,11 +3,22 @@ package Inheritance.domain;
 public class Manager extends Employee {
     private String department;
 
+    static {
+        System.out.println("Inside STATIC manager initialization block");
+    }
+    {
+        System.out.println("Inside manager initialization block 1");
+    }
+    {
+        System.out.println("Inside manager initialization block 2");
+    }
+
     public Manager(){
         super();
     }
     public Manager(String name){
         super(name);
+        System.out.println("Inside manager constructor");
 
     }
     @Override

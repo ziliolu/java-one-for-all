@@ -6,10 +6,21 @@ public class Employee {
     protected Address address;
     protected double salary;
 
+    static {
+        System.out.println("Inside STATIC employee initialization block");
+    }
+    {
+        System.out.println("Inside employee initialization block 1");
+    }
+    {
+        System.out.println("Inside employee initialization block 2");
+    }
+
     public Employee(){
 
     }
     public Employee(String name){
+        System.out.println("Inside employee constructor");
         this.name= name;
     }
 
