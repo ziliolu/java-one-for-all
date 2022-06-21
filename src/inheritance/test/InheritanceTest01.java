@@ -1,8 +1,8 @@
-package Inheritance.test;
+package inheritance.test;
 
-import Inheritance.domain.Address;
-import Inheritance.domain.Employee;
-import Inheritance.domain.Manager;
+import inheritance.domain.Address;
+import inheritance.domain.Employee;
+import inheritance.domain.Manager;
 
 public class InheritanceTest01 {
     public static void main(String[] args) {

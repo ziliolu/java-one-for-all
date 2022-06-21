@@ -1,6 +1,6 @@
-package Inheritance.test;
+package inheritance.test;
 
-import Inheritance.domain.Manager;
+import inheritance.domain.Manager;
 
 public class InheritanceTest02 {
     public static void main(String[] args) {

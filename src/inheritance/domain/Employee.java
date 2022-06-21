@@ -1,4 +1,4 @@
-package Inheritance.domain;
+package inheritance.domain;
 
 public class Employee {
     protected String name;

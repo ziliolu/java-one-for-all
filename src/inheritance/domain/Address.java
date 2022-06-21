@@ -1,4 +1,4 @@
-package Inheritance.domain;
+package inheritance.domain;
 
 public class Address {
     private String street;
