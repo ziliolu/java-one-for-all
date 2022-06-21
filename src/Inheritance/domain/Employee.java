@@ -1,10 +1,10 @@
 package Inheritance.domain;
 
 public class Employee {
-    private String name;
-    private String socialSecurityNumber;
-    private Address address;
-    private double salary;
+    protected String name;
+    protected String socialSecurityNumber;
+    protected Address address;
+    protected double salary;
 
     public void print(){
         System.out.println("------------");
@@ -13,6 +13,8 @@ public class Employee {
         System.out.println(this.salary);
         System.out.println(this.address.getStreet() + " " + this.address.getZipcode());
     }
+
+
 
     public double getSalary() {
         return salary;

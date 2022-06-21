@@ -29,6 +29,7 @@ public class InheritanceTest01 {
 
         employee.print();
         manager.print();
+        manager.paymentReport();
 
     }
 }
