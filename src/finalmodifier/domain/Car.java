@@ -5,7 +5,7 @@ public class Car {
     public static final double SPEED_LIMIT = 250; //final = means it is a constant and the value can't be changed
     public final Buyer BUYER = new Buyer();
 
-    public final void print(){
+    public final void print(){ //print method is final and can't be overwritten
         System.out.println("--- print() is a final method ---");
         System.out.println(this.name);
     }

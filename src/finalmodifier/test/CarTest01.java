@@ -13,6 +13,6 @@ public class CarTest01 {
 
         Ferrari ferrari = new Ferrari();
         ferrari.setName("Enzo");
-        ferrari.print();
+        ferrari.print(); //print method is final and can't be overwritten
     }
 }
